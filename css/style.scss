@@ -1,0 +1,118 @@
+$body-margin-left: 20;
+$default-font-weight: normal;
+$default-font-size: 13;
+$default-module-minwidth: 270;
+body {
+  font-size: $default-font-size + px;
+  font-weight: $default-font-weight;
+  margin-left: $body-margin-left + px;
+}
+.alert-style {
+  max-width: 640px !important;
+}
+.debugMode {
+  position: relative;
+  margin-top: -4px !important;
+  vertical-align: top !important;
+  font-size: $default-font-size;
+}
+.debugMode text {
+  position: absolute;
+  margin-top: 9px !important;
+  vertical-align: top !important;
+  font-size: $default-font-size;
+}
+input {
+  font-size: $default-font-size + px !important;
+}
+.theLabel {
+  font-weight: $default-font-weight;
+  font-size: $default-font-size + px;
+}
+#subDomain_Module {
+  width: $default-module-minwidth + px;
+  font-weight: $default-font-weight;
+  font-size: $default-font-size + px;
+}
+#pulsePreview_Module {
+  width: $default-module-minwidth + px;
+  font-weight: $default-font-weight;
+  font-size: $default-font-size + px;
+}
+#CurrentSDK_Module {
+  min-width: $default-module-minwidth + px;
+  font-size: $default-font-size + px;
+  font-weight: $default-font-weight;
+}
+#CurrentVideoJS_Module {
+  min-width: $default-module-minwidth + px;
+  font-size: $default-font-size + px;
+  font-weight: $default-font-weight;
+}
+#CurrentContribAds_Module {
+  min-width: $default-module-minwidth + px;
+  font-size: $default-font-size + px;
+  font-weight: $default-font-weight;
+}
+
+.subDomainWarning {
+  background-color: #000;
+}
+.subDomain {
+  background-color: none;
+}
+
+#subDomain {
+  width: 40%;
+  display: inline;
+}
+#pulse_preview {
+  width: 90%;
+  display: inline;
+}
+.react-tagsinput {
+  width: 640px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.react-tagsinput--focused {
+  // border-color: #a5d24a;
+}
+.react-tagsinput-tag {
+  background-color: #00BFFF;
+  border-radius: 2px;
+  color: 	#4682B4;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.react-tagsinput-remove {
+  cursor: pointer;
+  font-weight: bold;
+}
+.react-tagsinput-tag a::before {
+  content: " ×";
+}
+.react-tagsinput-tag a:hover {
+  text-decoration: none !important;
+}
+.react-tagsinput-input {
+  background: transparent;
+  border: 0;
+  color: #777;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 6px;
+  margin-top: 1px;
+  outline: none;
+  padding: 5px;
+  width: 80px;
+}

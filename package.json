@@ -1,0 +1,63 @@
+{
+  "name": "videojs-reactjs",
+  "version": "1.0.0",
+  "description": "VideoJS Pulse Integration",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel",
+     "build-css": "node-sass --include-path scss css/style.scss css/style.min.css --watch",
+    "devserver": "node-sass --include-path scss css/style.scss css/style.min.css --watch | webpack-dev-server --inline",
+    "build": "webpack -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalza/dashboard-react-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zalza/dashboard-react-js/issues"
+  },
+  "homepage": "https://github.com/zalza/dashboard-react-js#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "es6-promise": "^4.1.0",
+    "loaders.css": "^0.1.2",
+    "npm": "^5.8.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^15.5.4",
+    "react-helmet": "^5.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-redux": "^5.0.5",
+    "react-tagsinput": "^3.19.0",
+    "redux": "^3.6.0",
+    "redux-devtools": "^3.4.0",
+    "redux-form": "^7.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-thunk": "^2.2.0",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.15.0",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.0-rc.2",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
