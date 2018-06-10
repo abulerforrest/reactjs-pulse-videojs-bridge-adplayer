@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel",
-     "build-css": "node-sass --include-path scss css/style.scss css/style.min.css --watch",
+     "build-css": "node-sass --include-path scss css/style.scss css/style.min.css --output-style compressed --watch",
     "devserver": "node-sass --include-path scss css/style.scss css/style.min.css --output-style compressed --watch | webpack-dev-server --inline",
     "build": "webpack -d",
     "test": "echo \"Error: no test specified\" && exit 1"
