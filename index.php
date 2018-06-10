@@ -5,7 +5,7 @@ $CONTRIB_ADS_VERSION = null;
 //defaults
 $defaultSDK = "latest";
 $defaultVIDEOJS = "6.4.0";
-$defaultCONTRIBADS = "5.0.4-0";
+$defaultCONTRIBADS = "6.4.1";
 $sdklink = "resources";
 $service = "vp";
 
