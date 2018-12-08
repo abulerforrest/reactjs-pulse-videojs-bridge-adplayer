@@ -4,7 +4,7 @@ import VideoPlayer from '../containers/video-player';
 
 const App = () => (
   <div id="main">
-    <h1>VideoJS Pulse Test Integration1</h1>
+    <h1>VideoJS Pulse Test Integration</h1>
     <Header/>
     <VideoPlayer/>
   </div>
