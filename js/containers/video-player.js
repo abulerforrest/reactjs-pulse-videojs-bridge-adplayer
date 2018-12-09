@@ -85,7 +85,7 @@ adPLayerListener() {
           player.ready(function() {
 
               player.pulse({
-                pulseHost : values.subDomain + ".videoplaza.tv",
+                pulseHost : "https://" + values.subDomain + ".videoplaza.tv",
                   metadata: {
                     tags: [values.tags],
                     category: values.shares,
