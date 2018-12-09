@@ -130,7 +130,7 @@ adPLayerListener() {
 VideoPlayerWindow() {
   let videoJSid = "vjsVideo" + this.uniqid;
   let mainid = "main-" + this.uniqid;
-  let url = "http://pulse-demo.cdn.videoplaza.tv/resources/media/sintel_trailer_854x480.mp4?cb=" + new Date().getTime();
+  let url = "https://pulse-demo.cdn.videoplaza.tv/resources/media/sintel_trailer_854x480.mp4?cb=" + new Date().getTime();
 
   const styles = {
       width: "640px",
