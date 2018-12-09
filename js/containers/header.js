@@ -1,15 +1,11 @@
 import React, {Component} from 'react'
-import ReactDOM from 'react-dom';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import {ChangeSDKVersion} from '../actions/index';
-import {ChangeVideoJSVersion} from '../actions/index';
 import {PulseSDKSelectedAction} from '../actions/index';
 import {VideojsSelectedAction} from '../actions/index';
 import {ContribadsSelectedAction} from '../actions/index';
 import {SelectBoxAction} from '../actions/index';
 import {Starter} from '../actions/index';
-import {SaveAllSettings} from '../actions/index';
 import {ReloadPageWithParams} from '../actions/index';
 import {InputSubdomain} from '../actions/index';
 import {pulsePreview} from '../actions/index';
@@ -330,7 +326,7 @@ saveAllSettings(e) {
         </div>
       </th>
       <th>
-        <p className="theLabel">Preview (Ad/goal/camapaign):</p>
+        <p className="theLabel">Preview (Ad/goal/camapaign id):</p>
         <div id="pulsePreview_Module">
           <FormControl className="pulse_preview" type="text" value={this.props.pulse_preview.value} id="pulse_preview" ref="pulse_preview" inputRef={(ref) => { this.pulse_preview = ref; }} placeholder="Pulse Preview" onChange={() => this.props.pulsePreview(pulse_preview.value, "pulse_preview")} />
         </div>

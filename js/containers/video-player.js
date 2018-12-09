@@ -78,7 +78,6 @@ adPLayerListener() {
   }
 
   function loadPlayers() {
-
       var params = getQueryStringParams();
       var readyPlayers = videojs.getPlayers();
       for(var id in readyPlayers) {
