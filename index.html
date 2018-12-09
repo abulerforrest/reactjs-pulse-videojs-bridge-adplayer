@@ -15,13 +15,11 @@
                     let param;
                     if(params.has('pulseSDK') === true) {
                     param = params.get('pulseSDK');
-                    console.log(param)
                     url = 'https://vp.videoplaza.tv/resources/pulse-sdk-html5/2.1/pulse-sdk-html5-' + param + '.min.js';
                     document.getElementById('pulseSDK').src='' + url + '';        
                     }
                 </script>
 <script src="js/bundle.min.js"></script>
-
 <!-- Scripts: Pulse SDK, Ad Player skin, Brightcove player source, videojs-contrib-ads, this plugin -->
     <script src="https://players.brightcove.net/3110396001/ryoaUBpYZ_default/index.min.js"></script>    
     <script src="https://service.videoplaza.tv/proxy/pulse-sdk-html5-skin/base.min.js"></script>
