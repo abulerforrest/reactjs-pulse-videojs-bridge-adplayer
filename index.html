@@ -14,18 +14,12 @@
                     const params = new URLSearchParams(location.search);
                     let param;
                     if(params.has('pulseSDK') === true) {
-                       param = params.get('pulseSDK');
-                       console.log(param)
-                       url = 'https://vp.videoplaza.tv/resources/pulse-sdk-html5/2.1/pulse-sdk-html5-' + param + '.min.js';
-        
-                     
-                     
-                       document.getElementById('pulseSDK').src='' + url + '';
-                        
-        
+                    param = params.get('pulseSDK');
+                    console.log(param)
+                    url = 'https://vp.videoplaza.tv/resources/pulse-sdk-html5/2.1/pulse-sdk-html5-' + param + '.min.js';
+                    document.getElementById('pulseSDK').src='' + url + '';        
                     }
                 </script>
-        
 <script src="js/bundle.min.js"></script>
 
 <!-- Scripts: Pulse SDK, Ad Player skin, Brightcove player source, videojs-contrib-ads, this plugin -->
